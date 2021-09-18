@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class NewClass {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         NewClass nc = new NewClass();
+        
         Scanner scan = new Scanner(System.in);
         System.out.println("Please input a number: ");
         int testNum = scan.nextInt();
